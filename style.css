@@ -1,0 +1,377 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mountain {
+    width: 30px;
+    height: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+.name-mountain {
+    display: flex;
+}
+
+.name {
+    margin: 0;
+}
+
+.region {
+    margin: 0;
+}
+
+.main-img {
+    position: relative;
+}
+
+.mainPic {
+    width: 100%;
+    height: 750px;
+    border-radius: 20px;
+}
+
+.section-1 {
+    padding: 10px 40px;
+}
+
+.main {
+    display: flex;
+    gap: 40%;
+    color: white;
+    padding-left: 20px;
+}
+
+.main-h1 {
+    font-size: 60px;
+}
+
+.left-icon {
+    bottom: 0;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    color: white;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.icons {
+    border: 2px solid rgba(222, 220, 220, 0.263);
+    background-color: rgba(49, 48, 48, 0.311);
+    border-radius: 40px;
+    padding: 3px 4px;
+}
+
+.inside-img {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.icon {
+    background-color: rgba(184, 184, 184, 0.388);
+    border-radius: 20px;
+    padding: 6px;
+}
+
+.icons-2 {
+    display: flex;
+    gap: 40px;
+    padding-right: 20px;
+}
+
+.icon-2 {
+    display: flex;
+    align-items: center;
+    background-color: rgba(49, 48, 48, 0.311);
+    border-radius: 20px;
+    padding: 0 4px;
+
+}
+
+.name-icon {
+    display: flex;
+    gap: 30px;
+}
+
+.first-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: relative;
+}
+
+.second-img {
+    width: 350px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.explore {
+    display: flex;
+}
+
+.left-speech {
+    display: flex;
+    flex-direction: column;
+}
+
+.explore {
+    padding: 80px 40px;
+}
+
+.explore-1 {
+    background-color: rgba(217, 215, 215, 0.426);
+    width: 53px;
+    border-radius: 20px;
+    padding: 6px 8px;
+}
+
+.images {
+    display: flex;
+    gap: 10px;
+}
+
+.see-real {
+    color: white;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.left-img {
+    position: relative;
+}
+
+.inside-first-img {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    gap: 50px;
+}
+
+.right-arrow {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.right-img {
+    position: relative;
+}
+
+.nature {
+    position: absolute;
+    bottom: 75%;
+    left: 45%;
+    color: white;
+    border: 2px solid white;
+    padding: 6px 16px;
+    border-radius: 20px;
+}
+
+button {
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 40px;
+}
+
+.start {
+    color: white;
+    padding: 5px 17px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 6px;
+}
+
+.our-tour {
+    padding: 80px 40px;
+}
+
+.section3-images {
+    display: flex;
+    gap: 30px;
+
+}
+
+.section-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 21px;
+}
+
+.section3-st-img {
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.fourImges {
+    position: relative;
+}
+
+.coast {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    height: 90%;
+}
+
+.desert-journey {
+    align-self: flex-end;
+}
+
+.section3-head {
+    font-size: 40px;
+}
+
+.our-tour1 {
+    background-color: rgba(217, 215, 215, 0.426);
+    width: 20%;
+    border-radius: 20px;
+    padding: 6px 8px;
+}
+
+.section3-btn {
+    align-self: flex-end;
+}
+
+.section3-head-btn {
+    padding: 0 40px;
+}
+
+.experience {
+    padding: 80px 40px;
+    display: flex;
+    align-items: start;
+    gap: 40px;
+}
+
+.section4-images img {
+    width: 400px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.last-section4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.experience-1 {
+    background-color: rgba(217, 215, 215, 0.426);
+    width: 84px;
+    border-radius: 20px;
+    padding: 6px 8px;
+}
+
+.section4-begain {
+    display: flex;
+    gap: 30px;
+}
+
+.section-5 img {
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.video-tour {
+    padding: 80px 40px;
+}
+
+.section-5-video-tour {
+    background-color: rgba(217, 215, 215, 0.426);
+    width: 6%;
+    border-radius: 20px;
+    padding: 6px 8px;
+}
+
+.section5-head-para {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.play {
+    width: 25px;
+    height: 30px;
+    background-color: white;
+    padding: 14px 17px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.right-speech {
+    align-self: flex-start;
+}
+
+.every-visit {
+    align-self: flex-end;
+}
+
+.section5-inside {
+    position: absolute;
+    display: flex;
+    top: 20px;
+    align-items: center;
+    width: 96%;
+    justify-content: space-between;
+    height: 90%;
+    color: white;
+}
+
+.percantage {
+    font-size: 40px;
+    margin: 0;
+}
+.section5-Pic {
+    position: relative;
+}
+
+.section-6-ready {
+    background-color: rgba(217, 215, 215, 0.426);
+    width: 3%;
+    border-radius: 20px;
+    padding: 6px 14px;
+}
